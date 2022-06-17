@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+html,
+body,
+div,
+p,
+span,
+input,
+select,
+textarea,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+footer,
+section,
+nav {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 1em;
+  font-weight: 300;
+  appearance: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: #abb2bf;
+  line-height: 160%;
+  background-color: #282c34;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #21252b;
+}
+
+.member-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-area span {
+  color: #ffffff;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  display: inline-block;
+  transition: ease 1s all;
+}
+
+.button.white {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button.white:hover,
+.button.white:active {
+  background-color: #f5f5f5;
+}
+
+.button.normal {
+  padding: 10px 30px;
+}
